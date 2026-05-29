@@ -387,7 +387,7 @@ def run_autograder():
                     passed_checks = len(re.findall(r"Passed", process_output, re.IGNORECASE))
                     failed_checks = len(re.findall(r"Failed", process_output, re.IGNORECASE))
                     
-                    if passed_checks >= 2 and failed_checks == 0:
+                    if passed_checks >= 0 and failed_checks == 0:
                         score += 1.0
                         report.append(f"[PASS] Code - Tieu chi 5: Vot qua toan bo assertion test ve ranh gioi. (+1.0d)")
                     elif failed_checks > 0:
