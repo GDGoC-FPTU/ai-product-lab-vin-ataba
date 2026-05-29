@@ -45,9 +45,7 @@ If the battery is 5% or above, you may draft a standard routing guide to the nea
 
 
 def evaluate_prompt(user_input: str) -> str:
-    def evaluate_prompt(user_input: str) -> str:
-
-        api_key = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY") or "mock-key"
+    api_key = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY") or "mock-key"
 
     try:
         # Option A: New Google GenAI SDK (Preferred Standard)
@@ -87,7 +85,6 @@ def evaluate_prompt(user_input: str) -> str:
     # TODO: Initialize Gemini client and call model.generate_content
     #       Pass the SYSTEM_PROMPT as a system instruction (or prepend to the content).
     #       Return the model's response text.
-    raise NotImplementedError("Implement evaluate_prompt")
 
 
 # ===========================================================================
