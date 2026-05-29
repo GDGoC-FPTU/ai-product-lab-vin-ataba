@@ -48,6 +48,7 @@ Chọn **top 3 bài toán** từ danh sách trên và hoàn thiện **3 Quick Pr
 │ Quick Architecture: [ ] No AI  [x] Rule  [x] LLM [ ] Agent  │
 └─────────────────────────────────────────────────────────────┘
 ```
+```
 ┌─────────────────────────────────────────────────────────────┐
 │ QUICK PROBLEM CARD #2                                       │
 │                                                             │
@@ -80,6 +81,8 @@ Chọn **top 3 bài toán** từ danh sách trên và hoàn thiện **3 Quick Pr
 │                                                             │
 │ Quick Architecture: [ ] No AI  [ ] Rule  [x] LLM [ ] Agent  │
 └─────────────────────────────────────────────────────────────┘
+```
+```
 ┌─────────────────────────────────────────────────────────────┐
 │ QUICK PROBLEM CARD #3                                       │
 │                                                             │
@@ -112,3 +115,4 @@ Chọn **top 3 bài toán** từ danh sách trên và hoàn thiện **3 Quick Pr
 │                                                             │
 │ Quick Architecture: [ ] No AI  [ ] Rule  [x] LLM [ ] Agent  │
 └─────────────────────────────────────────────────────────────┘
+```
